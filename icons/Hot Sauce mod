@@ -1,0 +1,22 @@
+elements.hot_sauce = {
+    color: "#FF0000",
+    behavior: behaviors.LIQUID,
+    category: "foods",
+    viscosity: 100000,
+    state: "liquid",
+    density: 720,
+    temp: 1000,
+    tempHigh: 2000,
+    stateHigh: "hot_sauce_gas",
+}
+    elements.hot_sauce_gas = {
+    color: "##FF0000",
+    behavior: behaviors.GAS,
+    category: "gases",
+    state: "gas",
+    density: 1025,
+    tempLow: 149,
+    stateLow: "hot_sauce",
+    temp: 1029,
+}
+};
